@@ -1,0 +1,25 @@
+/* Top bar links */
+.ekart--top--bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+/* Top bar links */
+.ekart--top--bar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.ekart--top--bar a {
+  text-decoration: none;
+  color: #34495e;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.ekart--top--bar a:hover {
+  color: #007bff;
+}

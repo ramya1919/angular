@@ -1,0 +1,16 @@
+/* Menu links */
+.ekart--menu {
+  display: flex;
+  gap: 20px;
+}
+
+.ekart--menu a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #2c3e50;
+  transition: color 0.3s;
+}
+
+.ekart--menu a:hover {
+  color: #007bff;
+}

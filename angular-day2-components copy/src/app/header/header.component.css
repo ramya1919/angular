@@ -1,0 +1,97 @@
+/* Base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header wrapper */
+.ekart--header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.ekart-log {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  flex: 1 1 100%;
+  margin-bottom: 10px;
+}
+
+/* Navigation wrapper */
+.ekart--header--nave {
+  flex: 1 1 100%;
+}
+
+
+
+/* Bottom bar with menu and search */
+.ekart--bottom--bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+/* Search bar */
+.ekart--search-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ekart--search-box {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.ekart--search-btn {
+  padding: 6px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ekart--search-btn i {
+  font-size: 14px;
+}
+
+.ekart--search-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ekart--bottom--bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ekart--search-bar {
+    width: 100%;
+  }
+
+  .ekart--search-box {
+    width: 100%;
+    
+  }
+}
