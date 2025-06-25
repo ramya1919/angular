@@ -1,0 +1,10 @@
+<app-header></app-header>
+<div class="container">
+@for (user of team; track user.name) {
+  <app-profile-card
+    [name]="user.name"
+    [title]="user.title"
+    [avatar]="user.avatar"
+  ></app-profile-card>
+}
+</div>
