@@ -28,9 +28,17 @@ What is Data Binding?
 it is concept which allows communcation between the compnent and the temple(html view)
 examples with types:
 1.interpolation {{}}:- component -> template (used to display data from the component in the html)
-  <p>Hello, {{ userName }}</p>
+* interpolation is used to just display a piece of data in html, such as displaying a title or a name.
+Example:
+1.<p>Name: {{product.name}}</p>                 <!-- Interpolation -->
+<p>Price: {{'$' + product.price}}</p>         <!-- Interpolation with expression -->
+<p>Color: {{product.color}}</p>               <!-- Interpolation -->
+<p>{{product.inStock}}</p>                    <!-- Interpolation -->
+2.<p>Hello, {{ userName }}</p>
   userName = 'Ramya';
 2.Property Binding [property]:-
+
+* property binding lets us bind a property of a DOM object, for example the hidden property, to some data valu. thic can let us show or hide a DOM element or manipulate the DOM in some other way.
   component-> dom property
   used to bind values to html element properties
 
